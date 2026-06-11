@@ -83,12 +83,6 @@
     .cocktail-grid { grid-template-columns: repeat(2, 1fr); }
   }
 </style>
-<script id="inline-menu-data">
-(function(){
-  var stored = localStorage.getItem('boulevard_menu_v2');
-  if (!stored) { localStorage.setItem('boulevard_menu_v2', JSON.stringify({"Gerechten":{"subcats":["Voorgerechten & Starters","Hoofdgerechten","Toeslagen","Nagerechten & Gebak","Snacks & Lichte happen","Ontbijt"],"items":[{"id":1,"name":"Soep","desc":"","price":"7,50","section":"Voorgerechten & Starters","photo":""},{"id":2,"name":"Carpaccio","desc":"","price":"12,00","section":"Voorgerechten & Starters","photo":""},{"id":3,"name":"Garnalenkroket","desc":"","price":"13,00","section":"Voorgerechten & Starters","photo":""},{"id":4,"name":"Stokbrood met kruidenboter","desc":"","price":"5,50","section":"Voorgerechten & Starters","photo":""},{"id":5,"name":"Bitterballen (6x)","desc":"","price":"7,50","section":"Voorgerechten & Starters","photo":""},{"id":6,"name":"Kipfilet menu","desc":"Inclusief voor- of nagerecht","price":"29,00","section":"Hoofdgerechten","photo":""},{"id":7,"name":"Biefstuk menu","desc":"Inclusief voor- of nagerecht","price":"33,00","section":"Hoofdgerechten","photo":""},{"id":8,"name":"Schnitzel menu","desc":"Inclusief voor- of nagerecht","price":"29,00","section":"Hoofdgerechten","photo":""},{"id":9,"name":"Runderstoofpot menu","desc":"Inclusief voor- of nagerecht","price":"33,00","section":"Hoofdgerechten","photo":""},{"id":10,"name":"Zalm menu","desc":"Inclusief voor- of nagerecht","price":"32,00","section":"Hoofdgerechten","photo":""},{"id":11,"name":"Kabeljauw menu","desc":"Inclusief voor- of nagerecht","price":"31,00","section":"Hoofdgerechten","photo":""},{"id":12,"name":"Kaasfondue menu","desc":"Inclusief voor- of nagerecht","price":"30,50","section":"Hoofdgerechten","photo":""},{"id":13,"name":"Hoofdgerecht met soep of dessert","desc":"","price":"28,50","section":"Hoofdgerechten","photo":""},{"id":14,"name":"Plate service","desc":"","price":"25,50","section":"Hoofdgerechten","photo":""},{"id":15,"name":"Kindermenu","desc":"","price":"12,50","section":"Hoofdgerechten","photo":""},{"id":16,"name":"Supplement zeetong","desc":"","price":"9,50","section":"Toeslagen","photo":""},{"id":17,"name":"Supplement kabeljauw","desc":"","price":"7,50","section":"Toeslagen","photo":""},{"id":18,"name":"Carpaccio toeslag","desc":"","price":"6,50","section":"Toeslagen","photo":""},{"id":19,"name":"Garnalenkroket toeslag","desc":"","price":"7,50","section":"Toeslagen","photo":""},{"id":20,"name":"Geitenkaassalade toeslag","desc":"","price":"6,50","section":"Toeslagen","photo":""},{"id":21,"name":"Cheesecake toeslag","desc":"","price":"4,50","section":"Toeslagen","photo":""},{"id":22,"name":"Appeltaart toeslag","desc":"","price":"4,25","section":"Toeslagen","photo":""},{"id":23,"name":"Diverse gebak","desc":"","price":"5,75","section":"Nagerechten & Gebak","photo":""},{"id":24,"name":"Magnum","desc":"","price":"3,50","section":"Nagerechten & Gebak","photo":""},{"id":25,"name":"Cornetto","desc":"","price":"3,00","section":"Nagerechten & Gebak","photo":""},{"id":26,"name":"Waterijs","desc":"","price":"2,50","section":"Nagerechten & Gebak","photo":""},{"id":27,"name":"Tosti","desc":"","price":"3,50","section":"Snacks & Lichte happen","photo":""},{"id":28,"name":"Diverse snacks","desc":"","price":"2,50","section":"Snacks & Lichte happen","photo":""},{"id":29,"name":"Ontbijt (hotelgast)","desc":"","price":"10,00","section":"Ontbijt","photo":""},{"id":30,"name":"Ontbijt (extern)","desc":"","price":"15,00","section":"Ontbijt","photo":""}]},"Cocktails":{"subcats":["Cocktails"],"items":[{"id":101,"name":"Pornstar Martini","desc":"","price":"12,50","section":"Cocktails","photo":""},{"id":102,"name":"Espresso Martini","desc":"","price":"11,50","section":"Cocktails","photo":""},{"id":103,"name":"Sex on the Beach","desc":"","price":"11,50","section":"Cocktails","photo":""},{"id":104,"name":"Aperol Spritz","desc":"","price":"9,50","section":"Cocktails","photo":""},{"id":105,"name":"Mojito","desc":"","price":"9,50","section":"Cocktails","photo":""},{"id":106,"name":"Wissel Cocktail","desc":"","price":"9,50","section":"Cocktails","photo":""}]},"Bieren":{"subcats":["Van de tap","Flesjes","Alcoholvrij"],"items":[{"id":201,"name":"Gulpener tap 0,2 cl","desc":"","price":"3,00","section":"Van de tap","photo":""},{"id":202,"name":"Gulpener tap 0,3 cl","desc":"","price":"4,50","section":"Van de tap","photo":""},{"id":203,"name":"Gulpener tap 0,5 cl","desc":"","price":"7,50","section":"Van de tap","photo":""},{"id":204,"name":"Wisseltap 0,3 cl","desc":"","price":"5,75","section":"Van de tap","photo":""},{"id":205,"name":"Wisseltap 0,5 cl","desc":"","price":"8,50","section":"Van de tap","photo":""},{"id":206,"name":"Gulpener fles","desc":"","price":"3,90","section":"Flesjes","photo":""},{"id":207,"name":"Korenwolf","desc":"","price":"5,50","section":"Flesjes","photo":""},{"id":208,"name":"Boulevard IPA","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":209,"name":"Boulevard Blond","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":210,"name":"Duvel","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":211,"name":"Skuumkoppe","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":212,"name":"Liefmans Fruittesse","desc":"","price":"5,50","section":"Flesjes","photo":""},{"id":213,"name":"Westmalle Dubbel","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":214,"name":"Westmalle Tripel","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":215,"name":"Fransiskaner 0,5","desc":"","price":"6,00","section":"Flesjes","photo":""},{"id":216,"name":"Bierpakket","desc":"","price":"15,00","section":"Flesjes","photo":""},{"id":217,"name":"Gulpener 0,0","desc":"","price":"4,00","section":"Alcoholvrij","photo":""},{"id":218,"name":"Gulpener Radler 0,0","desc":"","price":"4,00","section":"Alcoholvrij","photo":""},{"id":219,"name":"Korenwolf witbier 0,0","desc":"","price":"4,50","section":"Alcoholvrij","photo":""}]},"Wijnen":{"subcats":["Witte wijn","Rode wijn","Rosé","Bubbels"],"items":[{"id":301,"name":"Huiswijn wit zoet (glas)","desc":"","price":"4,95","section":"Witte wijn","photo":""},{"id":302,"name":"Huiswijn wit zoet (karaf)","desc":"","price":"17,30","section":"Witte wijn","photo":""},{"id":303,"name":"Huiswijn wit zoet (fles)","desc":"","price":"24,75","section":"Witte wijn","photo":""},{"id":304,"name":"Chardonnay / Sauvignon / Pinot (glas)","desc":"","price":"5,50","section":"Witte wijn","photo":""},{"id":305,"name":"Louxor Chardonnay","desc":"","price":"25,50","section":"Witte wijn","photo":""},{"id":306,"name":"Domaine Bousquet Chardonnay Reserve","desc":"","price":"32,50","section":"Witte wijn","photo":""},{"id":307,"name":"Pinot Grigio Zenato","desc":"","price":"25,50","section":"Witte wijn","photo":""},{"id":308,"name":"Domaine Salmon Sancerre Blanc","desc":"","price":"42,50","section":"Witte wijn","photo":""},{"id":309,"name":"Huiswijn rood (glas)","desc":"","price":"4,95","section":"Rode wijn","photo":""},{"id":310,"name":"Huiswijn rood (karaf)","desc":"","price":"16,75","section":"Rode wijn","photo":""},{"id":311,"name":"Huiswijn rood (fles)","desc":"","price":"23,50","section":"Rode wijn","photo":""},{"id":312,"name":"Domaine Guinand Rouge Languedoc","desc":"","price":"25,50","section":"Rode wijn","photo":""},{"id":313,"name":"Passimiento Nero d'Avola","desc":"","price":"26,50","section":"Rode wijn","photo":""},{"id":314,"name":"Le Petit Cochonnet Merlot","desc":"","price":"24,00","section":"Rode wijn","photo":""},{"id":315,"name":"Domaine Bousquet Reserve Malbec","desc":"","price":"32,50","section":"Rode wijn","photo":""},{"id":316,"name":"Pious","desc":"","price":"25,50","section":"Rode wijn","photo":""},{"id":317,"name":"Glühwein (glas)","desc":"","price":"5,50","section":"Rode wijn","photo":""},{"id":318,"name":"Rosé (glas)","desc":"","price":"4,95","section":"Rosé","photo":""},{"id":319,"name":"Rosé (karaf)","desc":"","price":"17,30","section":"Rosé","photo":""},{"id":320,"name":"Rosé (fles)","desc":"","price":"24,75","section":"Rosé","photo":""},{"id":321,"name":"Prosecco (klein)","desc":"","price":"8,00","section":"Bubbels","photo":""},{"id":322,"name":"Prosecco (groot / fles)","desc":"","price":"22,50","section":"Bubbels","photo":""},{"id":323,"name":"Champagne (fles)","desc":"","price":"49,50","section":"Bubbels","photo":""}]},"Sterke drank":{"subcats":["Jenever & Binnenlands","Whisky & Gedestilleerd","Gin, Rum & Vodka","Cognac & Overig","Likeuren","Special coffee"],"items":[{"id":401,"name":"Bokma Jonge jenever","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":402,"name":"Bokma Oude jenever","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":403,"name":"Berenburg","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":404,"name":"Coeberg","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":405,"name":"Vieux","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":406,"name":"Ketel 1","desc":"","price":"4,25","section":"Jenever & Binnenlands","photo":""},{"id":407,"name":"Jack Daniel's","desc":"","price":"5,60","section":"Whisky & Gedestilleerd","photo":""},{"id":408,"name":"Jameson","desc":"","price":"5,60","section":"Whisky & Gedestilleerd","photo":""},{"id":409,"name":"Ballantine's","desc":"","price":"5,60","section":"Whisky & Gedestilleerd","photo":""},{"id":410,"name":"Johnnie Walker Rood","desc":"","price":"5,60","section":"Whisky & Gedestilleerd","photo":""},{"id":411,"name":"Southern Comfort","desc":"","price":"5,60","section":"Whisky & Gedestilleerd","photo":""},{"id":412,"name":"Glenfiddich 12 jaar","desc":"","price":"9,50","section":"Whisky & Gedestilleerd","photo":""},{"id":413,"name":"Glen Eldin 12 jaar","desc":"","price":"9,50","section":"Whisky & Gedestilleerd","photo":""},{"id":414,"name":"Dalmore 12 jaar","desc":"","price":"11,50","section":"Whisky & Gedestilleerd","photo":""},{"id":415,"name":"Gin Gordon's","desc":"","price":"5,60","section":"Gin, Rum & Vodka","photo":""},{"id":416,"name":"Tanqueray Export","desc":"","price":"5,60","section":"Gin, Rum & Vodka","photo":""},{"id":417,"name":"Bacardi","desc":"","price":"5,60","section":"Gin, Rum & Vodka","photo":""},{"id":418,"name":"Captain Morgan Gold","desc":"","price":"5,60","section":"Gin, Rum & Vodka","photo":""},{"id":419,"name":"Vodka","desc":"","price":"5,60","section":"Gin, Rum & Vodka","photo":""},{"id":420,"name":"Courvoisier VS","desc":"","price":"5,60","section":"Cognac & Overig","photo":""},{"id":421,"name":"Courvoisier VSOP","desc":"","price":"9,50","section":"Cognac & Overig","photo":""},{"id":422,"name":"Rémy Martin VSOP","desc":"","price":"5,60","section":"Cognac & Overig","photo":""},{"id":423,"name":"Calvados","desc":"","price":"5,60","section":"Cognac & Overig","photo":""},{"id":424,"name":"Pernod","desc":"","price":"5,60","section":"Cognac & Overig","photo":""},{"id":425,"name":"Campari","desc":"","price":"4,75","section":"Cognac & Overig","photo":""},{"id":426,"name":"Jägermeister","desc":"","price":"4,75","section":"Cognac & Overig","photo":""},{"id":427,"name":"Apfelkorn","desc":"","price":"4,75","section":"Cognac & Overig","photo":""},{"id":428,"name":"Limoncello","desc":"","price":"4,75","section":"Cognac & Overig","photo":""},{"id":429,"name":"Sambuca","desc":"","price":"4,50","section":"Cognac & Overig","photo":""},{"id":430,"name":"Port rood","desc":"","price":"4,50","section":"Cognac & Overig","photo":""},{"id":431,"name":"Port wit","desc":"","price":"4,50","section":"Cognac & Overig","photo":""},{"id":432,"name":"Martini wit","desc":"","price":"4,50","section":"Cognac & Overig","photo":""},{"id":433,"name":"Martini rood","desc":"","price":"4,50","section":"Cognac & Overig","photo":""},{"id":434,"name":"Licor 43","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":435,"name":"Ramazotti","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":436,"name":"Tia Maria","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":437,"name":"Drambuie","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":438,"name":"Dom","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":439,"name":"Grand Marnier","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":440,"name":"Cointreau","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":441,"name":"Baileys","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":442,"name":"Amaretto","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":443,"name":"Safari","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":444,"name":"Malibu","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":445,"name":"Passoa","desc":"","price":"5,00","section":"Likeuren","photo":""},{"id":446,"name":"Special coffee","desc":"","price":"9,00","section":"Special coffee","photo":""}]},"Dranken":{"subcats":["Koffie & Thee","Frisdrank","Sap","Water"],"items":[{"id":501,"name":"Koffie","desc":"","price":"3,25","section":"Koffie & Thee","photo":""},{"id":502,"name":"Espresso","desc":"","price":"3,25","section":"Koffie & Thee","photo":""},{"id":503,"name":"Cappuccino","desc":"","price":"3,75","section":"Koffie & Thee","photo":""},{"id":504,"name":"Latte macchiato / koffie verkeerd","desc":"","price":"3,95","section":"Koffie & Thee","photo":""},{"id":505,"name":"Thee","desc":"","price":"3,25","section":"Koffie & Thee","photo":""},{"id":506,"name":"Verse muntthee","desc":"","price":"4,00","section":"Koffie & Thee","photo":""},{"id":507,"name":"Warme chocolademelk","desc":"","price":"3,75","section":"Koffie & Thee","photo":""},{"id":508,"name":"Cola","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":509,"name":"Cola Zero","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":510,"name":"Fanta Cassis","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":511,"name":"Fanta Orange","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":512,"name":"Sprite","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":513,"name":"Ice tea","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":514,"name":"Ice tea green","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":515,"name":"Tonic","desc":"","price":"3,75","section":"Frisdrank","photo":""},{"id":516,"name":"Bitter lemon","desc":"","price":"3,75","section":"Frisdrank","photo":""},{"id":517,"name":"Ginger ale","desc":"","price":"4,95","section":"Frisdrank","photo":""},{"id":518,"name":"Rivella","desc":"","price":"3,25","section":"Frisdrank","photo":""},{"id":519,"name":"Appelsap","desc":"","price":"3,25","section":"Sap","photo":""},{"id":520,"name":"Jus d'orange","desc":"","price":"3,25","section":"Sap","photo":""},{"id":521,"name":"Chocomel","desc":"","price":"3,25","section":"Sap","photo":""},{"id":522,"name":"Chaud Fontaine still (0,25 l)","desc":"","price":"3,25","section":"Water","photo":""},{"id":523,"name":"Chaud Fontaine still (0,75 l)","desc":"","price":"6,25","section":"Water","photo":""},{"id":524,"name":"Chaud Fontaine bruisend (0,25 l)","desc":"","price":"3,25","section":"Water","photo":""},{"id":525,"name":"Chaud Fontaine bruisend (0,75 l)","desc":"","price":"6,25","section":"Water","photo":""}]}})); }
-})();
-</script>
 </head>
 <body>
 
@@ -324,27 +318,72 @@
 <script>
 const STORAGE_KEY = 'boulevard_menu_v2';
 
-function loadPhotos() {
+// Tab order and labels
+const TAB_ORDER = ['Gerechten','Cocktails','Bieren','Wijnen','Sterke drank','Dranken'];
+const TAB_IDS   = ['gerechten','cocktails','bieren','wijnen','sterke','dranken'];
+
+function loadData() {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (!stored) return;
-    const data = JSON.parse(stored);
-    Object.values(data).forEach(cat => {
-      cat.items.forEach(item => {
-        if (!item.photo) return;
-        document.querySelectorAll('[data-item-id="' + item.id + '"]').forEach(el => {
-          const img = el.querySelector('.dish-photo');
-          if (img) { img.src = item.photo; img.classList.add('has-photo'); }
-          const nameEl = el.querySelector('.dish-name');
-          if (nameEl && item.name) nameEl.textContent = item.name;
-          const descEl = el.querySelector('.dish-sub');
-          if (descEl && item.desc !== undefined) descEl.textContent = item.desc;
-          const priceEl = el.querySelector('.dish-price');
-          if (priceEl && item.price) priceEl.textContent = '€ ' + item.price;
-        });
+    if (stored) return JSON.parse(stored);
+  } catch(e){}
+  return null;
+}
+
+function renderMenu() {
+  const data = loadData();
+  if (!data) return; // use static HTML if no data
+
+  TAB_ORDER.forEach((catName, idx) => {
+    const cat = data[catName];
+    if (!cat) return;
+    const panelId = TAB_IDS[idx];
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+
+    // Group items by section
+    const sections = {};
+    cat.items.forEach(item => {
+      if (!sections[item.section]) sections[item.section] = [];
+      sections[item.section].push(item);
+    });
+
+    // Build HTML
+    let html = '';
+    // Use subcats order if available
+    const sectionOrder = cat.subcats && cat.subcats.length ? cat.subcats : Object.keys(sections);
+    sectionOrder.forEach(sec => {
+      const items = sections[sec];
+      if (!items || !items.length) return;
+      html += '<div class="section-label">' + sec + '</div>';
+      items.forEach(item => {
+        if (catName === 'Gerechten' || catName === 'Cocktails') {
+          // Card style with photo
+          const photoHtml = item.photo
+            ? '<img class="dish-photo has-photo" src="' + item.photo + '" alt="">'
+            : '<img class="dish-photo" src="" alt="">';
+          const descHtml = item.desc ? '<div class="dish-sub">' + item.desc + '</div>' : '';
+          html += '<div class="dish-card" data-item-id="' + item.id + '">' + photoHtml + '<div class="dish-content"><div><div class="dish-name">' + item.name + '</div>' + descHtml + '</div><div class="dish-price">€ ' + item.price + '</div></div></div>';
+        } else if (catName === 'Wijnen') {
+          // Wine table rows - just use simple item rows
+          html += '<div class="item"><span class="item-name">' + item.name + '</span><span class="item-price">€ ' + item.price + '</span></div>';
+        } else if (catName === 'Cocktails') {
+          // Cocktail card
+          html += '<div class="cocktail-card"><div class="cocktail-name">' + item.name + '</div><div class="cocktail-price">€ ' + item.price + '</div></div>';
+        } else {
+          // Standard item row
+          html += '<div class="item"><span class="item-name">' + item.name + '</span><span class="item-price">€ ' + item.price + '</span></div>';
+        }
       });
     });
-  } catch(e) {}
+
+    // Add footer note for gerechten
+    if (catName === 'Gerechten') {
+      html += '<div class="footer-note">Vraag ons personeel naar allergenen en dagmenu.<br>Alle prijzen zijn inclusief BTW.</div>';
+    }
+
+    panel.innerHTML = html;
+  });
 }
 
 function show(id, btn) {
@@ -354,7 +393,9 @@ function show(id, btn) {
   btn.classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-loadPhotos();
+
+// Render on load
+renderMenu();
 </script>
 </body>
 </html>
